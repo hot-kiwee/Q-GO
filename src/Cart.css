@@ -1,0 +1,133 @@
+/* Cart.css */
+
+.Cart {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 60px; 
+    position: relative; 
+}
+
+.cart-header {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: #fff; 
+    border-bottom: 1px solid #ccc; 
+    padding: 10px 20px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.cart-header h2 {
+    margin: 0;
+    text-align: center; 
+}
+
+.header-buttons {
+    position: absolute; 
+    right: 20px; 
+}
+
+.goBackButton {
+    background-color: black; 
+    color: #fff; 
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.goBackButton:hover {
+    background-color: #333; 
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item {
+    position: relative;
+    padding: 15px;
+    margin-bottom: 10px; 
+    background-color: #fff;
+    border-radius: 13px; 
+    border: 1px solid rgb(222, 221, 221); 
+    box-shadow: none; 
+    min-height: 250px; 
+}
+
+.cart-item-image {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.cart-item-details {
+    padding-right: 80px;
+}
+
+.cart-item-title {
+    font-weight: bold;
+}
+
+.cart-item-price {
+    color: #888;
+}
+
+.deleteButton {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: black; 
+    color: #fff; 
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.deleteButton:hover {
+    background-color: #333; 
+}
+
+
+.cart-footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    width: 100%; 
+    background-color: #fff; 
+    padding: 10px 20px; 
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    justify-content: center; 
+}
+
+.orderButton {
+    background-color: black; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.orderButton:hover {
+    background-color: #333; 
+}
